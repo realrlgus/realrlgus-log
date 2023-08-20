@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [],
   // blog setting (required)
   blog: {
-    title: "realrlgus-log",
+    title: "기거스 개발실",
     description: "기거스의 잡다한 생각들이 모여있는 공간",
   },
 
