@@ -12,7 +12,7 @@ const ServiceCard: React.FC = () => {
         <Emoji>🌟</Emoji> Service
       </StyledTitle>
       <StyledWrapper>
-        {CONFIG.projects.map((project, idx) => (
+        {CONFIG.projects?.map((project: any, idx) => (
           <a
             key={idx}
             href={`${project.href}`}
@@ -20,7 +20,7 @@ const ServiceCard: React.FC = () => {
             target="_blank"
           >
             <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{CONFIG.projects[0].name}</div>
+            <div className="name">{project.name}</div>
           </a>
         ))}
       </StyledWrapper>
