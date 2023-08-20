@@ -49,3 +49,7 @@ export type TCategories = {
 }
 
 export type ThemeType = "dark" | "light"
+
+export type TProject = {
+  [K: string]: string
+}
