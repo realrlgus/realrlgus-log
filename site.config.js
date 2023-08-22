@@ -44,7 +44,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "realrlgus/rlgus-log",
+      repo: "realrlgus/realrlgus-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
